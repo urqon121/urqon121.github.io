@@ -1,0 +1,192 @@
+body {
+	background-image:url(pics%20vids/giphy.gif);
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size: 12px;
+	color: #606060;
+}
+.nav-wrap {
+	left: 13px;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1008px;
+	height: 56px;
+	position: absolute;
+	top: 29px;
+}
+a.nav-pic {
+	width: 125px;
+	height: 125px;
+	background: url(pics%20vids/1.jpg);
+	background-position: 0 0;
+	display: block;
+	position: relative;
+	left: 15px;
+	top: -59px;
+	bottom: -59px;
+	float: left;
+	z-index: 2;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.nav-wrap .nav {
+	width: 1008px;
+	height: 64px;
+	position: relative;
+	top: -30px;
+	bottom: -30px;
+	background: url(pics%20vids/header.jpg) no-repeat;
+	background-size: cover;
+	z-index: 1;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	
+}
+.nav-warp .nav ul.navtxt {
+	position: absolute;
+	right: 80px;
+	margin: 0;
+	padding: 0;
+}
+.nav-wrap .nav ul li {
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-left: 57px;
+}
+.nav-wrap .nav ul li a {
+	display: block;
+	height: auto;
+	line-height: 64px;
+	overflow: auto;
+	color: #03AF5E;
+	text-shadow: 2px 2px #000000;
+	font-size: 15px;
+}
+#navcon {
+	width: 1300px;
+	margin: 0 auto;
+	top: 300px;
+	bottom: 600px;
+	position: relative;
+}
+#content {
+	background-image: url(pics%20vids/black_background_wood-t2.jpg);
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	font-family:"MS Serif", "New York", serif;
+	font-size:24px;
+	text-indent:hanging;
+}
+#context {
+	margin: 25px;
+	margin-bottom:25px;
+	margin-top:25px;
+	text-align:justify;
+	min-height:400px;
+}
+#pagenav {
+	background-image: url(pics%20vids/blue-sky-natural-abstract-art-header-2367.jpg);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height:40px;
+	position: relative;
+	padding: 0 7px 0 7px;
+}
+#pagenav ul {
+	float: left;
+	list-style: none;
+	margin-top: 10px;
+	padding: 0;
+}
+#pagenav ul li a, #pagenav ul li {
+	display: block;
+	line-height: 40px;
+	height: 40px;
+	color: #505050;
+	font-size: 13px;
+	color: #666666;
+}
+#pagenav ul li {
+	float: left;
+	margin: 0 20px 0 30px;
+	poisition: relative;
+	color: #666666;
+}
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+#page-footer {
+	background-image:url(pics%20vids/black_background_wood-t2.jpg);
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 350px;
+	font-size: 15px;
+	width: 700px;
+}
+a:link,a:visited {
+	outline: none;
+	border: 0;
+	color: #606060;
+	text-decoration: none;
+}
+a:hover,a:active{
+	text-decoration:underline;
+	text-outline:#FF0;
+}
+#pagenav li li{
+	border:1px solid #000;
+	background-image:url(pics%20vids/black_background_wood-t2.jpg);
+	padding-right:10px;
+	padding-bottom:4px;
+	height:20px;
+    list-style:none;
+    position:relative;
+    left:0px;
+    top:0px;
+	text-align:center;
+	text-justify:auto;
+	margin:0px;
+}
+#pagenav ul ul{
+    position:relative;
+    visibility:hidden;
+    top:-80px;
+	right:0px;
+	border:1px hidden;
+}
+#pagenav ul li a:link, ul li a:visited{
+	display: block;
+	background-color: none;
+	text-decoration: none;
+	color: #666;
+	padding-left: 8px;
+	line-height: 25px;
+	text-align: center;
+}
+#pagenav ul li a:hover{
+	color: #333333;
+	font-weight: bolder;
+}
+#pagenav ul li:hover ul{
+	display:block;
+    visibility:visible;
+}
